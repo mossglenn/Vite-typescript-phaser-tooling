@@ -6,8 +6,8 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['prettier', 'sonarjs'],
   extends: [
-    'airbnb-base',
-    'airbnb-typescript/base',
+    'airbnb',
+    'airbnb-typescript',
     'prettier',
     'plugin:sonarjs/recommended',
     'plugin:deprecation/recommended'
